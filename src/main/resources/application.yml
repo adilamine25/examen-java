@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/demomsi
+    username: keycloak
+    password: keycloak
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    hibernate.ddl-auto: update
+
+
